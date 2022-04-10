@@ -6,8 +6,7 @@ Cards.json generator based on images on 'Cards' folder
 import os
 import json
 
-# base = os.path.join(os.getcwd(), "Cards")
-base = './Cards/'
+path= os.path.join('./src', "imgs/")
 cards_list = []
 cards_json = None
 
@@ -36,7 +35,8 @@ def check_value(card):
 
 
 if __name__ == '__main__':
-    for root, folder, files in os.walk("./Cards"): # return a list of files inside the 'cards' folder
+    for root, folder, files in os.walk(path): # return a list of files inside the 'cards' folder
+        print(files)
         files.sort() #shuffle the files before append in card_list
         value = 0
         for card in files:
@@ -44,7 +44,7 @@ if __name__ == '__main__':
                 value = check_value(card)
             # append inside the card_list the values of card name, card img path and the value the was set in the check_value function
             cards_list.append(
-                {'card':card.split(".")[0], 'img':f'{os.path.join(base, card)}','value':int(value)}
+                {'card':card.split(".")[0], 'img':f'{os.path.join(path, card)}','value':int(value)}
             )
             value = 0 #return value to 0 in case of any card back appear in the list
 
