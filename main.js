@@ -1,342 +1,342 @@
 const cardsArray = [
     {
         "card": "cardBack_blue1",
-        "img": "/Cards/cardBack_blue1.png",
+        "img": "./Cards/cardBack_blue1.png",
         "value": 0
     },
     {
         "card": "cardBack_blue2",
-        "img": "/Cards/cardBack_blue2.png",
+        "img": "./Cards/cardBack_blue2.png",
         "value": 0
     },
     {
         "card": "cardBack_blue3",
-        "img": "/Cards/cardBack_blue3.png",
+        "img": "./Cards/cardBack_blue3.png",
         "value": 0
     },
     {
         "card": "cardBack_blue4",
-        "img": "/Cards/cardBack_blue4.png",
+        "img": "./Cards/cardBack_blue4.png",
         "value": 0
     },
     {
         "card": "cardBack_blue5",
-        "img": "/Cards/cardBack_blue5.png",
+        "img": "./Cards/cardBack_blue5.png",
         "value": 0
     },
     {
         "card": "cardBack_green1",
-        "img": "/Cards/cardBack_green1.png",
+        "img": "./Cards/cardBack_green1.png",
         "value": 0
     },
     {
         "card": "cardBack_green2",
-        "img": "/Cards/cardBack_green2.png",
+        "img": "./Cards/cardBack_green2.png",
         "value": 0
     },
     {
         "card": "cardBack_green3",
-        "img": "/Cards/cardBack_green3.png",
+        "img": "./Cards/cardBack_green3.png",
         "value": 0
     },
     {
         "card": "cardBack_green4",
-        "img": "/Cards/cardBack_green4.png",
+        "img": "./Cards/cardBack_green4.png",
         "value": 0
     },
     {
         "card": "cardBack_green5",
-        "img": "/Cards/cardBack_green5.png",
+        "img": "./Cards/cardBack_green5.png",
         "value": 0
     },
     {
         "card": "cardBack_red1",
-        "img": "/Cards/cardBack_red1.png",
+        "img": "./Cards/cardBack_red1.png",
         "value": 0
     },
     {
         "card": "cardBack_red2",
-        "img": "/Cards/cardBack_red2.png",
+        "img": "./Cards/cardBack_red2.png",
         "value": 0
     },
     {
         "card": "cardBack_red3",
-        "img": "/Cards/cardBack_red3.png",
+        "img": "./Cards/cardBack_red3.png",
         "value": 0
     },
     {
         "card": "cardBack_red4",
-        "img": "/Cards/cardBack_red4.png",
+        "img": "./Cards/cardBack_red4.png",
         "value": 0
     },
     {
         "card": "cardBack_red5",
-        "img": "/Cards/cardBack_red5.png",
+        "img": "./Cards/cardBack_red5.png",
         "value": 0
     },
     {
         "card": "cardClubs10",
-        "img": "/Cards/cardClubs10.png",
+        "img": "./Cards/cardClubs10.png",
         "value": 10
     },
     {
         "card": "cardClubs2",
-        "img": "/Cards/cardClubs2.png",
+        "img": "./Cards/cardClubs2.png",
         "value": 2
     },
     {
         "card": "cardClubs3",
-        "img": "/Cards/cardClubs3.png",
+        "img": "./Cards/cardClubs3.png",
         "value": 3
     },
     {
         "card": "cardClubs4",
-        "img": "/Cards/cardClubs4.png",
+        "img": "./Cards/cardClubs4.png",
         "value": 4
     },
     {
         "card": "cardClubs5",
-        "img": "/Cards/cardClubs5.png",
+        "img": "./Cards/cardClubs5.png",
         "value": 5
     },
     {
         "card": "cardClubs6",
-        "img": "/Cards/cardClubs6.png",
+        "img": "./Cards/cardClubs6.png",
         "value": 6
     },
     {
         "card": "cardClubs7",
-        "img": "/Cards/cardClubs7.png",
+        "img": "./Cards/cardClubs7.png",
         "value": 7
     },
     {
         "card": "cardClubs8",
-        "img": "/Cards/cardClubs8.png",
+        "img": "./Cards/cardClubs8.png",
         "value": 8
     },
     {
         "card": "cardClubs9",
-        "img": "/Cards/cardClubs9.png",
+        "img": "./Cards/cardClubs9.png",
         "value": 9
     },
     {
         "card": "cardClubsA",
-        "img": "/Cards/cardClubsA.png",
+        "img": "./Cards/cardClubsA.png",
         "value": 1
     },
     {
         "card": "cardClubsJ",
-        "img": "/Cards/cardClubsJ.png",
+        "img": "./Cards/cardClubsJ.png",
         "value": 11
     },
     {
         "card": "cardClubsK",
-        "img": "/Cards/cardClubsK.png",
+        "img": "./Cards/cardClubsK.png",
         "value": 13
     },
     {
         "card": "cardClubsQ",
-        "img": "/Cards/cardClubsQ.png",
+        "img": "./Cards/cardClubsQ.png",
         "value": 12
     },
     {
         "card": "cardDiamonds10",
-        "img": "/Cards/cardDiamonds10.png",
+        "img": "./Cards/cardDiamonds10.png",
         "value": 10
     },
     {
         "card": "cardDiamonds2",
-        "img": "/Cards/cardDiamonds2.png",
+        "img": "./Cards/cardDiamonds2.png",
         "value": 2
     },
     {
         "card": "cardDiamonds3",
-        "img": "/Cards/cardDiamonds3.png",
+        "img": "./Cards/cardDiamonds3.png",
         "value": 3
     },
     {
         "card": "cardDiamonds4",
-        "img": "/Cards/cardDiamonds4.png",
+        "img": "./Cards/cardDiamonds4.png",
         "value": 4
     },
     {
         "card": "cardDiamonds5",
-        "img": "/Cards/cardDiamonds5.png",
+        "img": "./Cards/cardDiamonds5.png",
         "value": 5
     },
     {
         "card": "cardDiamonds6",
-        "img": "/Cards/cardDiamonds6.png",
+        "img": "./Cards/cardDiamonds6.png",
         "value": 6
     },
     {
         "card": "cardDiamonds7",
-        "img": "/Cards/cardDiamonds7.png",
+        "img": "./Cards/cardDiamonds7.png",
         "value": 7
     },
     {
         "card": "cardDiamonds8",
-        "img": "/Cards/cardDiamonds8.png",
+        "img": "./Cards/cardDiamonds8.png",
         "value": 8
     },
     {
         "card": "cardDiamonds9",
-        "img": "/Cards/cardDiamonds9.png",
+        "img": "./Cards/cardDiamonds9.png",
         "value": 9
     },
     {
         "card": "cardDiamondsA",
-        "img": "/Cards/cardDiamondsA.png",
+        "img": "./Cards/cardDiamondsA.png",
         "value": 1
     },
     {
         "card": "cardDiamondsJ",
-        "img": "/Cards/cardDiamondsJ.png",
+        "img": "./Cards/cardDiamondsJ.png",
         "value": 11
     },
     {
         "card": "cardDiamondsK",
-        "img": "/Cards/cardDiamondsK.png",
+        "img": "./Cards/cardDiamondsK.png",
         "value": 13
     },
     {
         "card": "cardDiamondsQ",
-        "img": "/Cards/cardDiamondsQ.png",
+        "img": "./Cards/cardDiamondsQ.png",
         "value": 12
     },
     {
         "card": "cardHearts10",
-        "img": "/Cards/cardHearts10.png",
+        "img": "./Cards/cardHearts10.png",
         "value": 10
     },
     {
         "card": "cardHearts2",
-        "img": "/Cards/cardHearts2.png",
+        "img": "./Cards/cardHearts2.png",
         "value": 2
     },
     {
         "card": "cardHearts3",
-        "img": "/Cards/cardHearts3.png",
+        "img": "./Cards/cardHearts3.png",
         "value": 3
     },
     {
         "card": "cardHearts4",
-        "img": "/Cards/cardHearts4.png",
+        "img": "./Cards/cardHearts4.png",
         "value": 4
     },
     {
         "card": "cardHearts5",
-        "img": "/Cards/cardHearts5.png",
+        "img": "./Cards/cardHearts5.png",
         "value": 5
     },
     {
         "card": "cardHearts6",
-        "img": "/Cards/cardHearts6.png",
+        "img": "./Cards/cardHearts6.png",
         "value": 6
     },
     {
         "card": "cardHearts7",
-        "img": "/Cards/cardHearts7.png",
+        "img": "./Cards/cardHearts7.png",
         "value": 7
     },
     {
         "card": "cardHearts8",
-        "img": "/Cards/cardHearts8.png",
+        "img": "./Cards/cardHearts8.png",
         "value": 8
     },
     {
         "card": "cardHearts9",
-        "img": "/Cards/cardHearts9.png",
+        "img": "./Cards/cardHearts9.png",
         "value": 9
     },
     {
         "card": "cardHeartsA",
-        "img": "/Cards/cardHeartsA.png",
+        "img": "./Cards/cardHeartsA.png",
         "value": 1
     },
     {
         "card": "cardHeartsJ",
-        "img": "/Cards/cardHeartsJ.png",
+        "img": "./Cards/cardHeartsJ.png",
         "value": 11
     },
     {
         "card": "cardHeartsK",
-        "img": "/Cards/cardHeartsK.png",
+        "img": "./Cards/cardHeartsK.png",
         "value": 13
     },
     {
         "card": "cardHeartsQ",
-        "img": "/Cards/cardHeartsQ.png",
+        "img": "./Cards/cardHeartsQ.png",
         "value": 12
     },
     {
         "card": "cardJoker",
-        "img": "/Cards/cardJoker.png",
+        "img": "./Cards/cardJoker.png",
         "value": 1
     },
     {
         "card": "cardSpades10",
-        "img": "/Cards/cardSpades10.png",
+        "img": "./Cards/cardSpades10.png",
         "value": 10
     },
     {
         "card": "cardSpades2",
-        "img": "/Cards/cardSpades2.png",
+        "img": "./Cards/cardSpades2.png",
         "value": 2
     },
     {
         "card": "cardSpades3",
-        "img": "/Cards/cardSpades3.png",
+        "img": "./Cards/cardSpades3.png",
         "value": 3
     },
     {
         "card": "cardSpades4",
-        "img": "/Cards/cardSpades4.png",
+        "img": "./Cards/cardSpades4.png",
         "value": 4
     },
     {
         "card": "cardSpades5",
-        "img": "/Cards/cardSpades5.png",
+        "img": "./Cards/cardSpades5.png",
         "value": 5
     },
     {
         "card": "cardSpades6",
-        "img": "/Cards/cardSpades6.png",
+        "img": "./Cards/cardSpades6.png",
         "value": 6
     },
     {
         "card": "cardSpades7",
-        "img": "/Cards/cardSpades7.png",
+        "img": "./Cards/cardSpades7.png",
         "value": 7
     },
     {
         "card": "cardSpades8",
-        "img": "/Cards/cardSpades8.png",
+        "img": "./Cards/cardSpades8.png",
         "value": 8
     },
     {
         "card": "cardSpades9",
-        "img": "/Cards/cardSpades9.png",
+        "img": "./Cards/cardSpades9.png",
         "value": 9
     },
     {
         "card": "cardSpadesA",
-        "img": "/Cards/cardSpadesA.png",
+        "img": "./Cards/cardSpadesA.png",
         "value": 1
     },
     {
         "card": "cardSpadesJ",
-        "img": "/Cards/cardSpadesJ.png",
+        "img": "./Cards/cardSpadesJ.png",
         "value": 11
     },
     {
         "card": "cardSpadesK",
-        "img": "/Cards/cardSpadesK.png",
+        "img": "./Cards/cardSpadesK.png",
         "value": 13
     },
     {
         "card": "cardSpadesQ",
-        "img": "/Cards/cardSpadesQ.png",
+        "img": "./Cards/cardSpadesQ.png",
         "value": 12
     }
 ]
