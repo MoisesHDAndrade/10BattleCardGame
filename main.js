@@ -471,14 +471,14 @@ cardsArray.sort(() => 0.5 - Math.random()) // Shuffle the cardArrays variable
                             this.draw = false
                         }
                     }
-                    else if(this.cardBattle[counter-2].value < this.cardBattle[counter-1].value){
+                    if(this.cardBattle[counter-2].value < this.cardBattle[counter-1].value){
                         for(var item of this.cardBattle){
                             this.player_two_cards.push(item)
                             this.cardBattle = []
                             this.draw = false
                         }
                     }
-                    else if(this.cardBattle[counter-2].value == this.cardBattle[counter-1].value){
+                    if(this.cardBattle[counter-2].value == this.cardBattle[counter-1].value){
                         counter += 2
                         return
                     }
