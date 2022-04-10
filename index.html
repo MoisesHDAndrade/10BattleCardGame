@@ -7,17 +7,8 @@
 <meta name="Description" content="Enter your description here"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-<!-- <link rel="stylesheet" href="assets/css/style.css"> -->
-<title>CardBattle</title>
-<style>
-    .cards{
-        transition: all .3s ease;
-    }
-    .cards:hover{
-        transform: scale(1.2);
-        transition: all .3s ease
-    }
-</style>
+<link rel="stylesheet" href="assets/css/styles.css">
+<title>10Battle Card Game</title>
 </head>
 <body class="bg-success">
     <div class="container-fluid" id="app">
@@ -45,7 +36,6 @@
                 </div>
             </div>
         </div>
-
         <div class="modal fade" id="endgame" tabindex="-1" aria-labelledby="endgameLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -60,18 +50,16 @@
                     </div>
                     </div>
                     <div class="modal-footer">
-                    <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
                     <button type="button" class="btn btn-primary" data-bs-dismiss="modal" @click="resetGame()">New Game</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
 <script src="https://unpkg.com/vue@3"></script>
-<script src="./main.js"></script>
+<script src="./src/js/main.js"></script>
 <script>
     const mountedApp = app.mount('#app')
 </script>
