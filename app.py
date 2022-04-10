@@ -6,7 +6,8 @@ Cards.json generator based on images on 'Cards' folder
 import os
 import json
 
-base = "/Cards/"
+# base = os.path.join(os.getcwd(), "Cards")
+base = './Cards/'
 cards_list = []
 cards_json = None
 
