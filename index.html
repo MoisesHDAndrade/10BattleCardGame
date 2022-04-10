@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<!-- <link rel="stylesheet" href="assets/css/style.css"> -->
+<title>CardBattle</title>
+<style>
+    .cards{
+        transition: all .3s ease;
+    }
+    .cards:hover{
+        transform: scale(1.2);
+        transition: all .3s ease
+    }
+</style>
+</head>
+<body class="bg-success">
+    <div class="container-fluid" id="app">
+        <div class="rival-cards d-flex fixed-top justify-content-center mt-1">
+            <div class="row w-100 justify-content-center">
+                <div class="col-lg-1 col-md-2 col-sm-2 col-2" v-for="card in player_two_cards">
+                    <img :src="cardBack.img" alt="" class="img-fluid shadow" style="width: 4em; height: 8em;">
+                </div>
+            </div>
+        </div>
+        <div class="main-board vh-100 d-flex align-items-center justify-content-center">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-4 mx-2" v-for="(card, index) in cardBattle">
+                    <img :src="card.img" alt="" class="border border-5 border-danger shadow" style="width: 4em; height: 8em;" v-if="index % 2 == 0">
+                    <img :src="card.img" alt="" class="border border-5 border-primary shadow" style="width: 4em; height: 8em;" v-else>
+                </div>
+            </div>
+        </div>
+        <div class="player-cards d-flex fixed-bottom justify-content-center mb-2">
+            <div class="row w-100 justify-content-center">
+                <div class="col-lg-1 col-md-2 col-sm-2 col-2" v-for="card in player_one_cards">
+                    <a href="" @click.prevent="initiateBattle(card)">
+                        <img :src="cardBack.img" alt="" class="img-fluid shadow cards" style="width: 4em; height: 8em;">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="endgame" tabindex="-1" aria-labelledby="endgameLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <h1 class="text-center">{{gameOverMessage}}</h1>
+                        </div>
+                        <div class="row">
+                            <h2 class="text-center">Game Over</h2>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="modal-footer">
+                    <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal" @click="resetGame()">New Game</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/vue@3"></script>
+<script src="./main.js"></script>
+<script>
+    const mountedApp = app.mount('#app')
+</script>
+</body>
+</html>
