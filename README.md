@@ -4,7 +4,7 @@
   10Battle Card Game
 </h1>
 <p align="center">
-  10Battle Card Game it is a simple version of famous Battle card game, but only using 10 cards each player.
+  10Battle Card Game it is a simple version of famous War Card Game, but only using 10 cards each player.
 </p>
 
 <p align="center">
