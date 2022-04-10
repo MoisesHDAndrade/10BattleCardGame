@@ -14,20 +14,7 @@
 <br>
 
 <h2>How to run?</h2>
-Open your terminal inside the project folder and run:
-
-```bash
-# Python 3
-python3 -m http.server 5000
-
-```
-
-```bash
-# Python 2
-python -m -m SimpleHTTPServer 5000
-```
-
-Or using any http server that you like
+Just open the index.html file in your browser
 
 <h3>Modifications</h3>
 Do whatever modifications you want
