@@ -441,16 +441,16 @@ cardsArray.sort(() => 0.5 - Math.random()) // Shuffle the cardArrays variable
                 if(this.cardBattle.length == 2){
                     if(this.cardBattle[0].value > this.cardBattle[1].value){
                         for(var item of this.cardBattle){
-                            this.player_two_cards.push(item)
-                            this.player_two_cards.sort(() => 0.5 - Math.random())
+                            this.player_one_cards.push(item)
+                            this.player_one_cards.sort(() => 0.5 - Math.random())
                             this.cardBattle = []
                             this.draw = false
                         }
                     }
                     else if(this.cardBattle[0].value < this.cardBattle[1].value){
                         for(var item of this.cardBattle){
-                            this.player_one_cards.push(item)
-                            this.player_one_cards.sort(() => 0.5 - Math.random())
+                            this.player_two_cards.push(item)
+                            this.player_two_cards.sort(() => 0.5 - Math.random())
                             this.cardBattle = []
                             this.draw = false
                         }
@@ -466,14 +466,14 @@ cardsArray.sort(() => 0.5 - Math.random()) // Shuffle the cardArrays variable
                 if(this.cardBattle.length == counter){
                     if(this.cardBattle[counter-2].value > this.cardBattle[counter-1].value){
                         for(var item of this.cardBattle){
-                            this.player_two_cards.push(item)
+                            this.player_one_cards.push(item)
                             this.cardBattle = []
                             this.draw = false
                         }
                     }
                     else if(this.cardBattle[counter-2].value < this.cardBattle[counter-1].value){
                         for(var item of this.cardBattle){
-                            this.player_one_cards.push(item)
+                            this.player_two_cards.push(item)
                             this.cardBattle = []
                             this.draw = false
                         }
@@ -495,12 +495,12 @@ cardsArray.sort(() => 0.5 - Math.random()) // Shuffle the cardArrays variable
         },
         checkVictory(){
             if(this.player_one_cards.length <=0){
-                this.gameOverMessage = "Player One Won"
+                this.gameOverMessage = "Player Two Won"
                 this.openModal()
                 this.playing = false
             }
             if(this.player_two_cards.length <=0){
-                this.gameOverMessage = "Player Two Won"
+                this.gameOverMessage = "Player One Won"
                 this.openModal()
                 this.playing = false
             }
